@@ -7,9 +7,9 @@ import { useIsVisible } from '@components/hooks'
 import { ReactComponent as SvgMoblie } from '@fonts/svg/contact/moblie.svg'
 import { ReactComponent as SvgWeChat } from '@fonts/svg/contact/wechat.svg'
 import { ReactComponent as SvgQQ } from '@fonts/svg/contact/qq.svg'
-import { ReactComponent as SvgSina } from '@fonts/svg/contact/sina.svg'
-import { ReactComponent as SvgEmail } from '@fonts/svg/contact/email.svg'
-import { ReactComponent as SvgLinks } from '@fonts/svg/home/links.svg'
+// import { ReactComponent as SvgSina } from '@fonts/svg/contact/sina.svg'
+// import { ReactComponent as SvgEmail } from '@fonts/svg/contact/email.svg'
+// import { ReactComponent as SvgLinks } from '@fonts/svg/home/links.svg'
 
 interface IContactProps {}
 
@@ -26,9 +26,9 @@ const Contact: React.FC<IContactProps> = () => {
       >
         <ul className="row">
           <li className="col-6 col-lg-4">
-            <a href="tel://13751073203">
+            <a href="tel://13840255280">
               <SvgIcon component={SvgMoblie} />
-              <span>137-5107-3203</span>
+              <span>138-4025-5280</span>
             </a>
           </li>
           <li onClick={showContent} className="col-6 col-lg-4 cursign">
@@ -38,13 +38,13 @@ const Contact: React.FC<IContactProps> = () => {
           <li className="col-6 col-lg-4">
             <a
               target="_blank"
-              href="//wpa.qq.com/msgrd?v=3&uin=1591151425&site=qq&menu=yes"
+              href="//wpa.qq.com/msgrd?v=3&uin=501747372&site=qq&menu=yes"
             >
               <SvgIcon component={SvgQQ} />
               <span>QQ</span>
             </a>
           </li>
-          <li className="col-6 col-lg-4">
+          {/* <li className="col-6 col-lg-4">
             <a target="_blank" href="https://weibo.com/lghayy">
               <SvgIcon component={SvgSina} />
               <span>新浪微博</span>
@@ -61,7 +61,7 @@ const Contact: React.FC<IContactProps> = () => {
               <SvgIcon component={SvgLinks} />
               <span>lghayy.zcool.com.cn</span>
             </a>
-          </li>
+          </li> */}
         </ul>
         <Modal
           wrapClassName="tac"
@@ -71,7 +71,7 @@ const Contact: React.FC<IContactProps> = () => {
             display: 'inline-block',
           }}
         >
-          <img className="vam" src={require(`@images/wx-qrcode.png`)} alt="" />
+          <img className="vam"  src={require(`@images/wx-qrcode.png`)} alt="" />
         </Modal>
         {/* <div id="SOHUCS"></div>
         <script

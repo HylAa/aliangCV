@@ -17,8 +17,8 @@ const Home: React.FC = () => {
       <Banner isShowBtnDown isFullHeight />
       <LayoutMain
         pageTitleProps={{
-          zhName: '刘关化－WEB前端',
-          enName: 'liuguanhua WEB front-end',
+          zhName: '阿良－WEB前端',
+          enName: 'aliang WEB front-end',
         }}
       >
         <AboutMe />

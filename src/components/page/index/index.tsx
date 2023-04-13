@@ -16,7 +16,7 @@ import { ReactComponent as SvgUser } from '@fonts/svg/menu/user.svg'
 import { ReactComponent as SvgBank } from '@fonts/svg/home/bank.svg'
 import { ReactComponent as SvgGithub } from '@fonts/svg/home/github.svg'
 import { ReactComponent as SvgGraduationCap } from '@fonts/svg/home/graduation-cap.svg'
-import { ReactComponent as SvgLinks } from '@fonts/svg/home/links.svg'
+// import { ReactComponent as SvgLinks } from '@fonts/svg/home/links.svg'
 import { ReactComponent as SvgMarker } from '@fonts/svg/home/marker.svg'
 
 import { ReactComponent as SvgBook } from '@fonts/svg/home/book.svg'
@@ -32,7 +32,7 @@ import { ReactComponent as SvgJobs } from '@fonts/svg/home/jobs.svg'
 import { ReactComponent as SvgBuilding } from '@fonts/svg/home/building.svg'
 import { ReactComponent as SvgJobTitle } from '@fonts/svg/home/job-title.svg'
 
-const age = new Date().getFullYear() - 1994
+const age = new Date().getFullYear() - 2000
 const { work_list } = styles
 
 const baseInfo: {
@@ -49,7 +49,7 @@ const baseInfo: {
     icon: {
       component: SvgUser,
     },
-    title: `男/${age}岁/(1994.09)`,
+    title: `男/${age}岁/(2000.10)`,
   },
   {
     icon: {
@@ -62,32 +62,32 @@ const baseInfo: {
     icon: {
       component: SvgBank,
     },
-    links: 'http://www.szpt.edu.cn/',
-    title: '深圳职业技术学院',
+    links: 'https://www.syucu.edu.cn/',
+    title: '沈阳城市建设学院',
   },
   {
     icon: {
       component: SvgMarker,
     },
-    title: '深圳市南山区西丽镇',
+    title: '辽宁沈阳和平区',
   },
   {
     icon: {
       component: SvgGithub,
     },
-    links: '//github.com/liuguanhua/',
+    links: '//github.com/HylAa/',
     title: {
-      text: 'liuguanhua.github.io',
+      text: 'aliang.github.io',
       className: 'm-l-md',
     },
   },
-  {
-    icon: {
-      component: SvgLinks,
-    },
-    links: 'http://lghayy.zcool.com.cn/',
-    title: 'lghayy.zcool.com.cn',
-  },
+  // {
+  //   icon: {
+  //     component: SvgLinks,
+  //   },
+  //   links: 'http://lghayy.zcool.com.cn/',
+  //   title: 'lghayy.zcool.com.cn',
+  // },
 ]
 
 const empiricInfo = [
@@ -353,14 +353,14 @@ export const MyHobbyAndHonor: React.FC = () => {
         <li>
           <p>
             <SvgIcon component={SvgCalendar} />
-            <span className="font-family-georgia m-l-r-md">2015-08</span>
+            <span className="font-family-georgia m-l-r-md">2016-08</span>
             国家励志奖学金（对学习充满热情,肯钻研问题,不断的自我完善）
           </p>
         </li>
         <li>
           <p>
             <SvgIcon component={SvgCalendar} />
-            <span className="font-family-georgia m-l-r-md">2015-07</span>
+            <span className="font-family-georgia m-l-r-md">2016-07</span>
             CEAC".NET程序设计工程师"证书（通过国家信息化计算机教育认证）
           </p>
         </li>

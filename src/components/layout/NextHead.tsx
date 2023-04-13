@@ -20,13 +20,13 @@ const NextHead: React.FC<INextHeadProps> = ({ title = name }) => {
       <title>{title}</title>
       <meta
         name="keywords"
-        content="刘关化,web前端,前端工程师,简历,web前端个人简历,前端开发,前端简历,最新简历,前端博客,热前端,设计,FE,github,求职,lgh930.com,liuguanhua.github.io,lgh.vercel.app,liuguanhua,react,vue"
+        content="张良,web前端,前端工程师,简历,web前端个人简历,前端开发,前端简历,最新简历,前端博客,热前端,设计,FE,github,求职,aliang.github.io,zhangliang,aliang,react,vue"
       />
       <meta
         name="description"
         content="多年的前端开发经验,奋斗在前端路上的一个技术人员"
       />
-      <meta name="author" content="刘关化,前端,简历" />
+      <meta name="author" content="张良,前端,简历" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <link
         href={`${publicPath}static/css/bootstrap-grid.min.css`}

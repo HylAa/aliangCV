@@ -96,12 +96,12 @@ const Footer: React.FC = () => {
           className="font-weight-normal"
         >
           ©<span>2016-{currentYear}</span>{' '}
-          <a href="http://lgh930.com" target="_blank">
-            lgh930.com
+          <a href="http://alblog.top" target="_blank">
+            alblog.top
           </a>{' '}
           版权所有{' '}
           <a href="https://beian.miit.gov.cn/" target="_blank">
-            粤ICP备2020101870号
+            辽ICP备2020101870号
           </a>
         </h4>
         <a
@@ -114,7 +114,7 @@ const Footer: React.FC = () => {
             }}
             src={require('@images/icon-record.png')}
           />
-          粤公网安备 44030502006448号
+          辽公网安备 44030502006448号
         </a>
       </footer>
       <SideOperate />

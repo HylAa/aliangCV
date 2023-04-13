@@ -13,7 +13,7 @@
 
 ## 🏠 主页
 
-[预览](http://lgh930.com/)
+[预览](http://alblog.top/)
 
 ## ⌨️ 本地开发
 
@@ -31,8 +31,7 @@
 
 ## 👤 作者
 
-- 个人主页: [lgh930.com](http://lgh930.com)
-- Github:[@liuguanhua](https://github.com/liguanhua)
+aliang
 
 ## 🤝 支持
 

@@ -54,7 +54,8 @@ const Menubar: React.FC<IMenubarProps> = () => {
                     {...(isBlog && {
                       onClick: (e) => {
                         e.preventDefault()
-                        alert('功能开发中...，敬请期待^_^')
+                        window.open("http://alblog.top","_blank")
+                        // alert('功能开发中...，敬请期待^_^')
                       },
                     })}
                     {...(isTargetBlank && {

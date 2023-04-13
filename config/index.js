@@ -7,7 +7,7 @@
   const visitPath = '/'
   const publicPath = isProd ? visitPath : '/'
   return {
-    name: '刘关化|个人简历|前端工程师',
+    name: '阿良|个人简历|前端工程师',
     logo: publicPath + 'static/logo.png',
     isProd,
     publicPath,
