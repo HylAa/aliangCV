@@ -1,4 +1,4 @@
-<h1 align="center">liuguanhua.github.io 👏</h1>
+<h1 align="center">aliang.github.io 👏</h1>
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/node-%3E%3D10-blue.svg" />
@@ -18,10 +18,8 @@
 ## ⌨️ 本地开发
 
 ```
-下载：git clone https://github.com/liuguanhua/liuguanhua.github.io.git
 
 开发：
-    cd liuguanhua.github.io
     yarn install
     yarn dev
 
